@@ -1,4 +1,4 @@
-require('./style.css')
+require('../css/style.css')
 // this means we want to require the style and css loader
 
 let people = require('./people.js')
