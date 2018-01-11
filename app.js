@@ -1,3 +1,6 @@
+require('!style-loader!css-loader!./style.css')
+// this means we want to require the style and css loader
+
 let people = require('./people.js')
 let $ = require('jquery')
 
