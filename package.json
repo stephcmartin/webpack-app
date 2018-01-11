@@ -10,5 +10,8 @@
     "Webpack"
   ],
   "author": "Stephanie Martin Connelly",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
 }
