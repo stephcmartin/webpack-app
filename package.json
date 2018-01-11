@@ -4,7 +4,8 @@
   "description": "Sample Webpack App",
   "main": "app.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack-web-server --entry ./src/js/app.js --output-file ./dist/bundle.js"
   },
   "keywords": [
     "Webpack"
