@@ -1,1 +1,1 @@
-alert('Hello World! It is Webpack!')
+alert(require('./people.js'))
