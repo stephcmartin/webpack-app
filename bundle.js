@@ -70,7 +70,9 @@
 let people = __webpack_require__(1)
 let $ = __webpack_require__(2)
 
-$('body').append('<h2>'+people[0].name+'</h2>')
+$.each(people, function(key, value){
+    $('body').append('<h2>'+people[key].name+'</h2>')
+})
 
 console.log(people)
 
