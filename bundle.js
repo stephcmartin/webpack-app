@@ -73,7 +73,7 @@ alert(__webpack_require__(1))
 /* 1 */
 /***/ (function(module, exports) {
 
-module.exports = 'Hello Peeps!'
+module.exports = 'Hello My Peeps!'
 
 /***/ })
 /******/ ]);
