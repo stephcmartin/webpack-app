@@ -1,5 +1,11 @@
-function getHello(){
-    return 'Hello There Peeps Of The World!'
-}
+// function getHello(){
+//     return 'Hello There Peeps Of The World!'
+// }
 
-module.exports = getHello()
+let people = [
+    { name: 'Dylan Smith' },
+    { name: 'Joh Doe' },
+    { name: 'Faith Hill' }
+]
+
+module.exports = people
